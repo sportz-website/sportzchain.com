@@ -1,0 +1,11 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/f9fio6afzfus/public_html/
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R static $DEPLOYPATH
+    - /bin/cp favicon-16x16.png $DEPLOYPATH
+    - /bin/cp favicon-32x32.png $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
